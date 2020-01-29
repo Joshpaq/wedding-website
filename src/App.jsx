@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import Title from './Title'
 
 const Container = styled.div`
-  font-family: 'Josefin Sans';
+  font-family: 'Lemon/Milk', Arial;
   text-transform: uppercase;
   margin-left: auto;
   margin-right: auto;
