@@ -1,7 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import Title from './Title'
+import strings from './strings'
+
+import Link from './components/Link'
+import Section from './components/Section'
+import Title from './components/Title'
+
 
 const Container = styled.div`
   font-family: 'Lemon/Milk', Arial;
@@ -13,36 +18,36 @@ const Container = styled.div`
   max-width: 768px;
 `
 
-const Section = styled.div`
-  padding: 1em;
-`
-
-const Header = styled.div`
-  font-size: 2em;
-`
-
 const Content = styled.div`
-  padding: 1em;
+  text-align: center;
+  padding-top: .5em;
 `
 
 const App = () => (
   <Container>
     <Title />
-    <Section>
-      <Header>
-        When
-      </Header>
-      <Content>
-        Saturday, June 13, 2020
-      </Content>
+    <Section title={strings.WHEN_TITLE}>
+      <div>{strings.WHEN_BODY_1}</div>
+      <div>{strings.WHEN_BODY_2}</div>
     </Section>
-    <Section>
-      <Header>
-        Where
-      </Header>
-      <Content>
-        Exploration Place, 300 McClean Boulevard, Wichita, KS
-      </Content>
+    <Section title={strings.WHERE_TITLE}>
+      <div>{strings.WHERE_BODY_1}</div>
+      <div>{strings.WHERE_BODY_2}</div>
+      <div>{strings.WHERE_BODY_3}</div>
+    </Section>
+    <Section title={strings.HOTEL_TITLE}>
+      <div>{strings.HOTEL_BODY_1}</div>
+      <div>{strings.HOTEL_BODY_2}</div>
+      <div>{strings.HOTEL_BODY_3}</div>
+      <div>{strings.HOTEL_BODY_4}</div>
+    </Section>
+    <Section title={strings.REGISTRY_TITLE}>
+      <div>{strings.REGISTRY_BODY_1}</div>
+      <Link label={strings.REGISTRY_1_NAME} to={strings.REGISTRY_1_LINK} />
+      <br />
+      <Link label={strings.REGISTRY_2_NAME} to={strings.REGISTRY_2_LINK} />
+      <br />
+      <Link label={strings.REGISTRY_3_NAME} to={strings.REGISTRY_3_LINK} />
     </Section>
   </Container>
 )

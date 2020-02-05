@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import strings from '../strings'
+
 const Content = styled.div`
   text-align: center;
   padding: .5em;
@@ -8,7 +10,7 @@ const Content = styled.div`
 `
 
 const Title = () => (
-  <Content>Josh + Kate</Content>
+  <Content>{strings.TITLE}</Content>
 )
 
 export default Title
