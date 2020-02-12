@@ -23,5 +23,7 @@ export default {
     REGISTRY_2_NAME: 'Crate & Barrel',
     REGISTRY_2_LINK: 'https://www.crateandbarrel.com/gift-registry/kate-moeder-and-josh-paquette/r6086637',
     REGISTRY_3_NAME: 'Target',
-    REGISTRY_3_LINK: 'https://www.target.com/gift-registry/giftgiver?registryId=89e2e4cf45a24b72b2e978b406909f3c&type=WEDDING'
+    REGISTRY_3_LINK: 'https://www.target.com/gift-registry/giftgiver?registryId=89e2e4cf45a24b72b2e978b406909f3c&type=WEDDING',
+    REGISTRY_4_NAME: `Traveler's Joy`,
+    REGISTRY_4_LINK: 'https://www.travelersjoy.com/moederpaquette2020'
 }

@@ -48,6 +48,8 @@ const App = () => (
       <Link label={strings.REGISTRY_2_NAME} to={strings.REGISTRY_2_LINK} />
       <br />
       <Link label={strings.REGISTRY_3_NAME} to={strings.REGISTRY_3_LINK} />
+      <br />
+      <Link label={strings.REGISTRY_4_NAME} to={strings.REGISTRY_4_LINK} />
     </Section>
   </Container>
 )
