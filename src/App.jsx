@@ -35,6 +35,11 @@ const App = () => (
       <div>{strings.WHERE_BODY_2}</div>
       <div>{strings.WHERE_BODY_3}</div>
     </Section>
+    <Section title={strings.RSVP_TITLE}>
+      <div>{strings.RSVP_BODY_1}</div>
+      <div>{strings.RSVP_BODY_2}</div>
+      <div>{strings.RSVP_BODY_3}</div>
+    </Section>
     <Section title={strings.HOTEL_TITLE}>
       <div>{strings.HOTEL_BODY_1}</div>
       <div>{strings.HOTEL_BODY_2}</div>
