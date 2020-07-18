@@ -32,4 +32,9 @@ export default {
   REGISTRY_3_LINK: 'https://www.target.com/gift-registry/giftgiver?registryId=89e2e4cf45a24b72b2e978b406909f3c&type=WEDDING',
   REGISTRY_4_NAME: 'Traveler\'s Joy',
   REGISTRY_4_LINK: 'https://www.travelersjoy.com/moederpaquette2020',
+
+  CANCELLATION_TITLE: 'Please note',
+  CANCELLATION_BODY: 'Because COVID-19 cases have been rising rapidly, we have made the very difficult decision to cancel the large wedding we had originally planned. As much as we would love to celebrate with all of our loved ones, we do not see a way to move forward and maintain the health and safety of our friends and family. Throughout this process, we have said many times that we will be bringing those we love most in the world together. We would be absolutely heartbroken if anything were to happen as a result of our wedding. We plan to have a small, private backyard ceremony on August 29th with immediate family only. We hope to celebrate with everyone in our own unique way soon. Until then, we thank you for your support, understanding, and patience. We hope that you send us your love and will be with us in spirit as we say “I do.”',
+  CANCELLATION_SIGN_OFF: 'Much love,',
+  CANCELLATION_NAMES: 'Josh and Kate'
 }

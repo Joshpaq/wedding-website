@@ -26,6 +26,12 @@ const Content = styled.div`
 const App = () => (
   <Container>
     <Title />
+    <Section title={strings.CANCELLATION_TITLE}>
+      <div>{strings.CANCELLATION_BODY}</div>
+      <br />
+      <div>{strings.CANCELLATION_SIGN_OFF}</div>
+      <div>{strings.CANCELLATION_NAMES}</div>
+    </Section>
     <Section title={strings.WHEN_TITLE}>
       <div>{strings.WHEN_BODY_1}</div>
       <div>{strings.WHEN_BODY_2}</div>
