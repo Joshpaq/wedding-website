@@ -7,7 +7,6 @@ import Link from './components/Link'
 import Section from './components/Section'
 import Title from './components/Title'
 
-
 const Container = styled.div`
   font-family: 'Lemon/Milk', Arial;
   text-transform: uppercase;
@@ -16,11 +15,6 @@ const Container = styled.div`
   padding-left: 1em;
   padding-right: 1em;
   max-width: 768px;
-`
-
-const Content = styled.div`
-  text-align: center;
-  padding-top: .5em;
 `
 
 const App = () => (
